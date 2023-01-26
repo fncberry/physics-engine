@@ -1,0 +1,3 @@
+function Box(){
+    this.body;
+}

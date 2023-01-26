@@ -1,0 +1,115 @@
+a:link{text-decoration:none; color: rgb(86, 79, 79);}
+a:visited{text-decoration:none; color: rgb(135, 125, 125);}
+a:hover{text-decoration:none; color: black; animation: glitch 175ms;}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /*display: flex;*/
+  justify-content: center;
+}
+
+#main{
+    display: flex;
+    padding: 10px;
+    width: auto;
+    max-width: 800px;
+    margin: auto;
+    justify-content: center;
+}
+canvas {
+  display: block;
+  border: 0px solid rgb(58, 55, 55); 
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.homelink a{
+  font-size: 24px;
+}
+
+
+.js{
+    list-style-type: none;
+    justify-content: center;
+}
+  
+.js a{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    text-decoration: none;
+    display:block; 
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.js li { 
+  position:relative; 
+  display: inline-block;
+}
+.js ul{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+  
+
+
+
+
+.js ul li:hover {background: none;}
+.js ul li:hover ul {display: flex;}
+.js ul li:hover ul li ul{display: none;}
+.js ul li ul li:hover ul{display: block;}
+
+
+/*링크*/
+.js ul li ul {
+  position: absolute;
+  display: none;
+  text-align: center;
+}
+.js ul li ul li { 
+  background: rgb(247, 246, 246); 
+  display: block; 
+ 
+}
+.js ul li ul li a {
+    display:flex ;
+    font-size: 15px;
+    height: auto ;
+    width: auto;
+} 
+
+.js ul li ul li:hover {
+  background: white;
+  border: 1px solid rgb(86, 85, 85);
+}
+
+/*링크의 링크*/
+.js ul li ul li ul {
+  position: absolute;
+  width: 250px;
+  display: none;
+}
+.js ul li ul li ul li{ 
+  background: rgb(247, 246, 246); 
+  display: block !important; 
+}
+.js ul li ul li ul li a {
+    display:block !important;
+    font-size: 13px;
+    height: auto !important;
+    width: auto !important;
+} 
+.js ul li ul li ul li:hover {
+  background: white;
+  border: 1px solid rgb(86, 85, 85);
+}
+
+
+
+
